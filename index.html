@@ -1,0 +1,170 @@
+<!doctype html>
+<!--[if lt IE 7 ]>
+<html lang="en" class="no-js ie6">
+<![endif]-->
+<!--[if IE 7 ]>
+<html lang="en" class="no-js ie7">
+<![endif]-->
+<!--[if IE 8 ]>
+<html lang="en" class="no-js ie8">
+<![endif]-->
+<!--[if IE 9 ]>
+<html lang="en" class="no-js ie9">
+<![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html lang="en" class="no-js">
+<!--<![endif]-->
+<head>
+	<meta charset="utf-8"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+
+	<title>Real Housewives of Cheshire - manchestereveningnews.co.uk</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/jquery.socialriser.css"/>
+	<link rel="stylesheet" href="css/style.css"/>
+
+	<script src="javascripts/vendor/modernizr.min.js"></script>
+
+</head>
+
+<body class="template-center">
+	<div id="main-wrapper">
+
+		<div id="main-content" class="container">
+			<header class="row">
+				<div class="social-links col-md-12"></div>
+				<div class="col-md-12">
+
+					<h1>Play Real Housewives of Cheshire Bingo</h1>
+
+				</div>
+			</header>
+
+			<section class="row hidden-print">
+				<div class="col-md-10 col-md-offset-1 top-text-wrapper">
+					<div class="col-md-7 col-md-offset-1">
+						<p>Description</p>
+					</div>
+					<div class="col-md-2 col-md-offset-1 text-right new-card-container">
+    					<button type="button" class="btn btn-primary btn-lg" id="new-card">Get new card <span class="glyphicon glyphicon-refresh" aria-hidden="true"></span></button>
+    				</div>
+    			</div>
+			</section>
+			<section class="row">
+				<div class="col-md-10 col-md-offset-1 bingo">
+					<div class="row card-header">
+						<div class="square-header col-xs-15">
+							<div class="square-text">B</div>
+						</div>
+						<div class="square-header col-xs-15">            
+							<div class="square-text">I</div>
+						</div>
+						<div class="square-header col-xs-15">            
+							<div class="square-text">N</div>
+						</div>
+						<div class="square-header col-xs-15">            
+							<div class="square-text">G</div>
+						</div>
+						<div class="square-header col-xs-15">            
+							<div class="square-text">O</div>
+						</div>          
+					</div>
+					<div class="card"></div>
+
+					<!-- Bingo Modal -->
+					<div class="modal fade hidden-print" id="bingo-modal" tabindex="-1" role="dialog" aria-labelledby="Bingo!" aria-hidden="true">
+						<div class="modal-backdrop in"></div>
+						<div class="modal-dialog">
+							<div class="modal-content">
+								<div class="modal-body row text-center">
+								  	<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+								  	<div class="col-xl-12">
+								  		<h4 class="title">Bingo!</h4>
+								  		<p>Yell it out so everyone knows you got it first.</p>
+										<h5>Share your card</h5>
+								  		<div class="share-card">
+											<div class="social-links bingo-social-links"></div>
+											<a class="glyphicon social-glyph glyphicon-envelope social-link-email" href="#" alt="Email your card"></a>
+											<div class="share-link form-group">
+												<label><span class="glyphicon glyphicon-link" aria-hidden="true"></span></label>
+												<input type="text" class="form-control input-sm social-link-url" value="http://graphics.wsj.com/oscar-bingo-2015/?key=" onclick="this.select();" />
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="modal-footer">
+    							    <button type="button" class="btn btn-primary" data-dismiss="modal">Keep playing</button>
+    							</div>
+							</div>
+						</div>
+					</div>
+					<!-- End Bingo Modal -->
+					<!-- Bingo Modal -->
+					<div class="modal fade hidden-print" id="full-modal" tabindex="-1" role="dialog" aria-labelledby="Full Bingo!" aria-hidden="true">
+						<div class="modal-backdrop in"></div>
+						<div class="modal-dialog">
+							<div class="modal-content">
+								<div class="modal-body row text-center">
+								  	<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+								  	<div class="col-xl-12">
+								  		<h4 class="title">Full board Bingo!</h4>
+								  		<p>Wow. We were spot on in our predictions. Thanks for playing!</p>
+								  		<iframe width="560" height="315" src="https://www.youtube.com/embed/danBaPWT09A" frameborder="0" allowfullscreen></iframe>
+										<h5>Share your card</h5>
+										<div class="share-card">
+											<div class="social-links bingo-social-links"></div>
+											<a class="glyphicon social-glyph glyphicon-envelope social-link-email" href="#" alt="Email your card"></a>
+											<div class="share-link form-group">
+												<label><span class="glyphicon glyphicon-link" aria-hidden="true"></span></label>
+												<input type="text" class="form-control input-sm social-link-url" value="http://graphics.wsj.com/oscar-bingo-2015/?key=" onclick="this.select();" />
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="modal-footer">
+    							    <button type="button" class="btn btn-primary" data-dismiss="modal">Keep playing</button>
+    							</div>
+							</div>
+						</div>
+					</div>
+					<!-- End Bingo Modal -->
+				</div>
+			</section>
+			<section class="row share-footer hidden-print">
+    			<div class="col-sm-12 text-center">
+					<h5>Share your card</h5>
+					<div class="share-card">
+						<div class="social-links bingo-social-links"></div>
+						<a class="glyphicon social-glyph glyphicon-envelope social-link-email" href="#" alt="Email your card"></a>
+						<a class="glyphicon social-glyph glyphicon-print" href="#" alt="Print your card" onclick="window.print();"></a>
+						<div class="share-link form-group">
+							<label><span class="glyphicon glyphicon-link" aria-hidden="true"></span></label>
+							<input type="text" class="form-control input-sm social-link-url" value="http://graphics.wsj.com/oscar-bingo-2015/?key=" onclick="this.select();" />
+						</div>
+					</div>
+    			</div>
+			</section>
+			<section class="row hidden-print">
+    			<div class="footnote col-sm-12">Interactive: <a href="http://www.twitter.com/sarahjsquire">Sarah Squire</a></div>
+    			<div class="footnote col-sm-12">Bingo game structure built by the <a href="http://datanews.wnyc.org" target="_blank">WNYC Data News Team</a>.</div>
+    		</section>
+		</div>
+
+	<script src="javascripts/vendor/jquery.1.10.2.min.js"></script>	
+	<script src="javascripts/vendor/bootstrap.min.js"></script>
+	<script src="javascripts/vendor/jquery.socialriser.min.js"></script>
+	<script src="javascripts/vendor/handlebars.min.js"></script>
+	<script src="javascripts/vendor/lodash.min.js"></script>
+	<script src="javascripts/vendor/fastclick.js"></script>
+
+	<!-- begin concat -->
+	<!-- end concat -->
+<script type="text/javascript" src="javascripts/bingo.js"></script>
+<script type="text/javascript" src="javascripts/script.js"></script>
+
+
+</body>
+</html>
