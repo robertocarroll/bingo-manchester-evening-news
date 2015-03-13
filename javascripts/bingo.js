@@ -13,11 +13,11 @@ var Bingo = function(data, options) {
         FREEROW = 2,
         FREECOL = 2,
         CARDSIZE = 5,
-        storage_key = 'wsj-oscars-bingo-key',
+        storage_key = 'men-real-housewives-bingo-key',
         key,//url encoding of saved card
         card_template,//handlebars template
         bingo=0,
-        base_url = 'http://graphics.wsj.com/oscar-bingo-2015/',//sharing
+        base_url = 'http://www.manchestereveningnews.co.uk/whats-on/play-real-housewives-cheshire-bingo-8704442',//sharing
         printable = false,
         lowercase = "a".charCodeAt(0),
         card_template_string = ''

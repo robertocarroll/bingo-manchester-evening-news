@@ -156,6 +156,14 @@ h1 .head-split {
   color: #666666;
   font-size: 13px; }
 
+  .padding-top {
+  	padding-top: 24px;
+  }
+
+  .padding-left {
+  	padding-left: 6px;
+  }
+
 .legend {
   font-size: 12px;
   padding-left: 10px;
@@ -703,7 +711,7 @@ body > .modal-backdrop {
     font-weight: 600;
     color: #000; }
   .bingo .square-bg {
-    background-color: #f3f3f3;
+    background-color: #faf4f4;
     height: 100%;
     position: relative; }
   .bingo .square-chip {
