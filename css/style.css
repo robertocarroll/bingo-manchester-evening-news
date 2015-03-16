@@ -292,23 +292,23 @@ h4, h5, h6 {
   margin-bottom: 0px; }
 
 h2 {
-  font-size: 22px; }
+  font-size: 24px; }
 
 h3 {
-  font-size: 18px; }
+  font-size: 20px; }
 
 h4 {
-  font-size: 16px; }
+  font-size: 18px; }
 
 h5 {
-  font-size: 14px; }
+  font-size: 16px; }
 
 h6 {
-  font-size: 12px; }
+  font-size: 14px; }
 
 body {
   font-family: 'PT Sans Narrow', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 400; }
 
 a.pill {
