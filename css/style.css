@@ -847,7 +847,7 @@ col-lg-
 /* - Mobile view - */
 @media screen and (max-width: 500px) {
   .bingo .square {
-    font-size: 11px;
+    font-size: 14px;
     line-height: 13px; } }
 @media screen and (max-width: 450px) {
   .bingo .square-chip {
