@@ -657,6 +657,10 @@ body > .modal-backdrop {
   margin: -14px -11px 0 0;
   padding: 5px 10px; }
 
+.modal-dialog {
+	margin-top: 100px;
+} 
+
 /* - Bingo styles -*/
 /* Add 15 column grid to bootstrap */
 .col-xs-15,
@@ -748,7 +752,9 @@ body > .modal-backdrop {
     top: 50%;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
-    transform: translateY(-50%); }
+    transform: translateY(-50%); 
+    font-size: 14px;
+  }
   .bingo .free .square-bg {
     color: #ffe400;
     font-weight: 600; }
