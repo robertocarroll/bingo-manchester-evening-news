@@ -753,7 +753,7 @@ body > .modal-backdrop {
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%); 
-    font-size: 14px;
+    font-size: 16px;
   }
   .bingo .free .square-bg {
     color: #ffe400;
@@ -847,7 +847,7 @@ col-lg-
 /* - Mobile view - */
 @media screen and (max-width: 500px) {
   .bingo .square {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 13px; } }
 @media screen and (max-width: 450px) {
   .bingo .square-chip {
@@ -869,5 +869,3 @@ col-lg-
 @media print {
   .social-riser a[href]:after {
     content: none !important; } }
-
-/*# sourceMappingURL=style.css.map */
