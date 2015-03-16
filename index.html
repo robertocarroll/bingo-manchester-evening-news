@@ -30,11 +30,20 @@
 </head>
 
 <body class="template-center">
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&appId=262188335047&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
 	<div id="main-wrapper">
 
 		<div id="main-content" class="container">
 			<header class="row">
-				<div class="social-links col-md-12"></div>
 				<div class="col-md-12">
 					<h1>Play Real Housewives of Cheshire Bingo</h1>
 				</div>
@@ -42,17 +51,17 @@
 
 			<section class="row hidden-print">
 				<div class="col-md-10 col-md-offset-1 top-text-wrapper">
-					<div class="col-md-7 col-md-offset-1">
-						<p>Watch the Play Real Housewives of Cheshire for classic moments, then cover squares.</p>
-					</div>
-					<div class="col-md-2 col-md-offset-1 text-right new-card-container">
-    					<button type="button" class="btn btn-primary btn-lg" id="new-card">Get new card <span aria-hidden="true"></span></button>
-    				</div>
+						<div class="col-md-7 col-md-offset-1">
+							<p>Watch the Play Real Housewives of Cheshire for classic moments, then cover squares.</p>
+						</div>
+						<div class="col-md-2 col-md-offset-1 text-right new-card-container">
+	  					<button type="button" class="btn btn-primary btn-lg" id="new-card">Get new card <span aria-hidden="true"></span></button>
+	  				</div>
     			</div>
 			</section>
 			<section class="row">
-				<div class="col-md-10 col-md-offset-1 bingo">
-					<div class="row card-header">
+					<div class="col-md-10 col-md-offset-1 bingo">
+						<div class="row card-header">
 						<div class="square-header col-xs-15">
 							<div class="square-text">B</div>
 						</div>
@@ -74,62 +83,63 @@
 					<!-- Bingo Modal -->
 					<div class="modal fade hidden-print" id="bingo-modal" tabindex="-1" role="dialog" aria-labelledby="Bingo!" aria-hidden="true">
 						<div class="modal-backdrop in"></div>
-						<div class="modal-dialog">
-							<div class="modal-content">
-								<div class="modal-body row text-center">
-								  	<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-								  	<div class="col-xl-12">
-								  		<h4 class="title">Bingo!</h4>
-								  		<p>Yell it out so everyone knows you got it first.</p>
-										<h5>Share your card</h5>
-								  		<a href="https://twitter.com/home?status=Play%20MEN's%20Real%20Housewives%20of%20Cheshire%20Bingo:%20http://www.manchestereveningnews.co.uk/whats-on/play-real-housewives-cheshire-bingo-8704442">Share on Twitter</a>
+							<div class="modal-dialog">
+									<div class="modal-content">
+											<div class="modal-body row text-center">
+											  	<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+												  	<div class="col-xl-12">
+												  		<h4 class="title">Bingo!</h4>
+												  		<p>Yell it out so everyone knows you got it first.</p>
+														<h5>Share your card</h5>
+														<div class="share-buttons">
+												  		<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.manchestereveningnews.co.uk/whats-on/play-real-housewives-cheshire-bingo-8704442" data-text="I've just got bingo on MEN's Real Housewives of Cheshire Bingo:" data-via="mennewsdesk" data-count="none">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 
-											<a class="padding-left" href="https://www.facebook.com/sharer/sharer.php?u=Play%20MEN's%20Real%20Housewives%20of%20Cheshire%20Bingo:%20http://www.manchestereveningnews.co.uk/whats-on/play-real-housewives-cheshire-bingo-8704442">Share on Facebook</a>
+															<div class="fb-share-button" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button"></div>
 
+														</div>
+
+															</div>
+													</div>
 											</div>
-										</div>
 									</div>
-								</div>
 								<div class="modal-footer">
     							    <button type="button" class="btn btn-primary" data-dismiss="modal">Keep playing</button>
     							</div>
-							</div>
-						</div>
+	
 					</div>
 					<!-- End Bingo Modal -->
 					<!-- Bingo Modal -->
 					<div class="modal fade hidden-print" id="full-modal" tabindex="-1" role="dialog" aria-labelledby="Full Bingo!" aria-hidden="true">
 						<div class="modal-backdrop in"></div>
-						<div class="modal-dialog">
-							<div class="modal-content">
-								<div class="modal-body row text-center">
-								  	<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-								  	<div class="col-xl-12">
-								  		<h4 class="title">Full board Bingo!</h4>
-								  		<p>Thanks for playing!</p>
-								  		<iframe width="560" height="315" src="https://www.youtube.com/embed/danBaPWT09A" frameborder="0" allowfullscreen></iframe>
-										<h5>Share your card</h5>
-											<a href="https://twitter.com/home?status=Play%20MEN's%20Real%20Housewives%20of%20Cheshire%20Bingo:%20http://www.manchestereveningnews.co.uk/whats-on/play-real-housewives-cheshire-bingo-8704442">Share on Twitter</a>
+								<div class="modal-dialog">
+											<div class="modal-content">
+															<div class="modal-body row text-center">
+															  	<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+															  	<div class="col-xl-12">
+															  		<h4 class="title">Full board Bingo!</h4>
+															  		<p>Thanks for playing!</p>
+																	<h5>Share your card</h5>
+																		<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.manchestereveningnews.co.uk/whats-on/play-real-housewives-cheshire-bingo-8704442" data-text="I've just got bingo on MEN's Real Housewives of Cheshire Bingo:" data-via="mennewsdesk" data-count="none">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 
-										<a class="padding-left" href="https://www.facebook.com/sharer/sharer.php?u=Play%20MEN's%20Real%20Housewives%20of%20Cheshire%20Bingo:%20http://www.manchestereveningnews.co.uk/whats-on/play-real-housewives-cheshire-bingo-8704442">Share on Facebook</a>
+																	<div class="fb-share-button" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button"></div>
 
+																	</div>
+													</div>
 										</div>
-									</div>
-								</div>
-								<div class="modal-footer">
-    							    <button type="button" class="btn btn-primary" data-dismiss="modal">Keep playing</button>
-    							</div>
-							</div>
-						</div>
+										<div class="modal-footer">
+		    							    <button type="button" class="btn btn-primary" data-dismiss="modal">Keep playing</button>
+		    						</div>
 					</div>
 					<!-- End Bingo Modal -->
 				</div>
-			</section>
+		</section>
 
 			<section class="row hidden-print">
-    			<div class="footnote col-sm-12 padding-top">Interactive by <a href="http://www.twitter.com/sarahjsquire">Sarah Squire</a>, Wall Street Journal and adapted by the Manchester Evening News</div>
+    			<div class="footnote col-sm-12 padding-top">Interactive by <a href="http://www.twitter.com/sarahjsquire">Sarah Squire</a>, Wall Street Journal and adapted by the Manchester Evening News.</div>
     			<div class="footnote col-sm-12">Bingo game structure built by the <a href="http://datanews.wnyc.org" target="_blank">WNYC Data News Team</a>.</div>
-    		</section>
+    	</section>
 		</div>
 
 	<script src="javascripts/vendor/jquery.1.10.2.min.js"></script>	
